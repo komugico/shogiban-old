@@ -13,8 +13,8 @@ class HeaderModule extends React.Component {
                     <Nav.Link href="/">Home</Nav.Link>
                 </LinkContainer>
                 <NavDropdown title="Tools">
-                    <LinkContainer to="/">
-                        <NavDropdown.Item>Under construction...</NavDropdown.Item>
+                    <LinkContainer to="/tools/board">
+                        <NavDropdown.Item>Board</NavDropdown.Item>
                     </LinkContainer>
                 </NavDropdown>
             </Navbar>
